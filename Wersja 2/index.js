@@ -13,5 +13,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(8080, () => {
-  console.log('Nasłuchuje na porcie 80');
+  console.log('Nasłuchuje na porcie 8080');
 });
