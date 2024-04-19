@@ -24,7 +24,7 @@ Imię i nazwisko:
 
 **1. [Informacje ogólne](#1-informacje-ogólne)**\
 \
-**2. [Rozwiązanie 1.](#2-rozwiązanie-1)**\
+**2. [Rozwiązanie 1. (Wersja 1)](#2-rozwiązanie-1)**\
 \
 » **2.1 [Dockerfile — etap pierwszy](#21-dockerfile--etap-pierwszy)**\
 \
@@ -38,7 +38,7 @@ Imię i nazwisko:
 \
 » **2.6 [Potwierdzenie zrealizowania funkcjonalności](#26-potwierdzenie-zrealizowania-funkcjonalności)**\
 \
-**3. [Rozwiązanie 2.](#3-rozwiązanie-2)**\
+**3. [Rozwiązanie 2. (Wersja 2)](#3-rozwiązanie-2)**\
 \
 » **3.1 [Zmiany w pliku Dockerfile](#31-zmiany-w-pliku-dockerfile)**\
 \
