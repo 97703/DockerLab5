@@ -354,6 +354,9 @@ server
 ### 3.4 Zbudowanie obrazu i uruchomienie serwera
 Zbudowano obraz, uruchomiono kontener i sprawdzono jego status.
 
+> [!WARNING]
+> Budowanie drugiego obrazu zostało wykonane po wyczyszczeniu cache Dockera. Bez wyczyszczenia procedura trwałaby znacznie krócej.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/97703/DockerLab5/main/rysunki/docker_build_2.png" style="width: 70%; height: 70%" /></p>
 <p align="center">
