@@ -243,7 +243,7 @@ Domyślnie **« _localhost_ »** działa na porcie **« _80_ »**, stąd nie ma 
 Usługę skonfigurowano tak, aby lokalizacja **« _localhost/_ »** wskazywała na aktywny serwer aplikacji [NPM](https://www.npmjs.com/) nasłuchujący na porcie **« _8080_ »**.*
 <br><br><br>
 ### 3.1 Zmiany w pliku Dockerfile
-Plik Dockerfile otrzymał dwie poprawki:
+Plik [Dockerfile](https://github.com/97703/DockerLab5/blob/main/Wersja%202/Dockerfile) otrzymał dwie poprawki:
 1. linia **« _RUN npm install ip_ »** została zamieniona na **« _RUN npm install_ »** — moduł ip nie jest już instalowany
 2. linia **« _["sh", "-c", "npm start && nginx -g 'daemon off;'"]_ »** została zamieniona na **« _["sh", "-c", "npm start & nginx -g 'daemon off;'"]_ »** — terminal nie oczekuje na zakończenie procesu **« _npm start_ »**.
 
@@ -381,7 +381,7 @@ Zbudowano obraz, uruchomiono kontener i sprawdzono jego status.
 ---
 
 ### 3.5 Potwierdzenie zrealizowania funkcjonalności
-Ponownie otworzono stronę znajdującą się pod adresem http://localhost/. Wynik tej operacji znajduje się na poniżej (Rys. 16.).
+Ponownie otworzono stronę znajdującą się pod adresem http://localhost/. Wynik tej operacji znajduje się poniżej (Rys. 20.).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/97703/DockerLab5/main/rysunki/strona_2.png" style="width: 40%; height: 40%" /></p>
