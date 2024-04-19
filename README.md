@@ -59,7 +59,7 @@ Imię i nazwisko:
 <br><br><br>
 Opracowanie zawiera dwa własne rozwiązania zadania zbudowania obrazu i kontenera korzystającego z metody wieloetapowego budowania obrazów.<br>
 
-Dla poprawnego zrealizowania zadania wykorzystano Docker Desktop w wersji 4.27.2 (137060) oraz obraz Alpine w wersji 3.19.1, który został przedstawiony na zajęciach.
+Dla poprawnego zrealizowania zadania wykorzystano `Docker Desktop` w wersji 4.27.2 (137060) oraz obraz `Alpine` w wersji 3.19.1, który został przedstawiony na zajęciach.
 
 Utworzone w obu rozwiązaniach obrazy korzystają z usług [NPM](https://www.npmjs.com/) oraz [Nginx](https://www.nginx.com/).
 
