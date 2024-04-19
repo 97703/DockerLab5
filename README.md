@@ -44,7 +44,7 @@ Imię i nazwisko:
 \
 » **3.2 [Różnice w index.js](#32-różnice-w-indexjs)**\
 \
-» **3.3 [Różnice w nginxconf](#33-różnice-w-nginxconf)**\
+» **3.3 [Różnice w nginx.conf](#33-różnice-w-nginxconf)**\
 \
 » **3.4 [Zbudowanie obrazu i uruchomienie serwera](#34-zbudowanie-obrazu-i-uruchomienie-serwera)**\
 \
@@ -199,7 +199,7 @@ Za pomocą polecenia **« _docker ps_ »** z opcją **« _--filter name_ »** sp
 Ponadto zwrócono się do Dockera o bardziej szczegółowe informacje poprzez polecenie **« _docker inspect_ »**.
 
 ```
-docker inspect --filter name="lab5"
+docker ps --filter name="lab5"
 ```
 <p align="center">
   <i>Rys. 7. Polecenie weryfikujące</i>
