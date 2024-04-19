@@ -229,6 +229,8 @@ docker inspect <<< id_kontenera >>>
 ### 2.6 Potwierdzenie zrealizowania funkcjonalności
 Za pomocą przeglądarki wyświetlono stronę [http://localhost/](http://localhost/).
 Domyślnie **« _localhost_ »** działa na porcie **« _80_ »**, stąd nie ma potrzeby wpisywania portu w pasku adresowym. Po wejściu na stronę, wyświetlone są wymagane informacje, w tym adres IP serwera, nazwa serwera oraz wersja aplikacji (rys. 10.).
+> [!NOTE]
+> Widoczny na stronie adres IP jest adresem kontenera.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/97703/DockerLab5/main/rysunki/strona_1.png" style="width: 40%; height: 40%" /></p>
